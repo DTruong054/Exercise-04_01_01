@@ -52,5 +52,29 @@
     "shortname":"Xhou_Ta",
     "reknown":"China International Art University",
     "bio":"A senior at the China International Art University, Xhou has become well-known for his miniature sculptures, often the size of a rice granule, that are displayed by rear projection of microscope images on canvas. Xhou will discuss the art and science behind his incredibly detailed works of art."
+  },
+  {
+    "name":"Daniel Truong",
+    "shortname":"Daniel_Truong",
+    "reknown":"West-MEC Student",
+    "bio":"A senior at Desert Edge highschool, Daniel has become a West-MEC student and is working on this website. Often he will mess around with code when he has nothing else to do in class. Making a new framework called: DepressJS."
+  },
+  {
+    "name":"Charley Tran",
+    "shortname":"Charley_Tran",
+    "reknown":"West-MEC Student",
+    "bio":"A senior at Desert Edge highschool, Charley has become a West-MEC student and is alsoworking on this website. Kinda lazy to come up with the rest..."
+  },
+  {
+    "name":"Eli Boblett",
+    "shortname":"Eli_Boblett",
+    "reknown":"West-MEC Student",
+    "bio":"A Desert Edge senior. He goes to West-MEC. Yah....."
+  },
+  {
+    "name":"Harrison Stephens",
+    "shortname":"Harrison_S",
+    "reknown":"West-MEC Student",
+    "bio":"A Human. Probably.........."
   }
 ]
