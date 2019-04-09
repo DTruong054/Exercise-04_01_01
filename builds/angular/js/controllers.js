@@ -18,5 +18,24 @@ myControllers.controller('DetailsController', function MyController($scope, $htt
         $scope.artists = res.data;
         //Finding out what item was clicked, 0 = first item in the array
         $scope.whichItem = $routeParams.itemId;
+
+        //Left angle
+        if ($routeParams.itemId > 0) {
+            //This is for prevItem
+            //This is casting a string to a number
+            //Casting is changing one data type to another
+            $scope.prevItem = Number($routeParams.itemId) - 1;
+        } else {
+            //This will revrse us
+            $scope.prevItem = $scope.artists.length - 1;
+        }
+
+        //Right item
+        if ($routeParams.itemId < $scope.artists.length - 1) {
+            //This is for nextItem
+            $scope.nextItem = Number($routeParams.itemId) + 1;
+        } else {
+            $scope.nextItem = 0;
+        }
     });
 })
